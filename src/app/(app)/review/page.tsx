@@ -106,7 +106,7 @@ const Page = () => {
           <p className="text-xl text-gray-700">
             Upload your resume and choose your destiny:
           </p>
-          <div className="w-full max-w-md mx-auto">
+          <div className="w-full max-w-3xl mx-auto">
             <FileUpload onChange={handleFileUpload} />
           </div>
         </div>

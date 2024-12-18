@@ -85,7 +85,7 @@ const Page = () => {
                     <span>Upload your resume and select your roast level</span>
                   </div>
                 </div>
-                <div className="grid gap-6 max-w-md mx-auto">
+                <div className="grid gap-6 max-w-2xl mx-auto">
                   <div className="space-y-2">
                     <Label htmlFor="roastLevel" className="text-lg font-medium">
                       Choose Your Roast Level
