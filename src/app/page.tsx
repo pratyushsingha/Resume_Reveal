@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Cover } from "@/components/ui/cover";
-import { ModeToggle } from "@/components/ModeToggle";
 
 export default function Home() {
   return (

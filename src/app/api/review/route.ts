@@ -4,7 +4,7 @@ import { groq } from "@/utils/groq";
 import { reviewSchema } from "@/schemas/reviewSchema";
 import { REVIEW_PROMPT } from "@/utils/prompts";
 
-export async function POST(req: NextRequest, res: NextResponse) {
+export async function POST(req: NextRequest) {
   const { prompt }: { prompt: string } = await req.json();
   const resumeMatch = prompt.match(/RESUME: ([\s\S]*?)\n\n-------/);
   const resumeText = resumeMatch ? resumeMatch[1].trim() : "";
